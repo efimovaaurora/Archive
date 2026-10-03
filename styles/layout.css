@@ -34,7 +34,6 @@
 }
 
 .inside{
-    padding-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
