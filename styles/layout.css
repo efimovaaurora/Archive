@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    text-decoration: none;
+}
+
+.logo{
+    width: 48px;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.name a{
+    color: black;
+    font-size: 16px;
+}
+
+.project{
+    color: grey;
+    font-size: 16px;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    
+}
+
+.inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    border-top: solid 2px lightgrey;
+    border-bottom: solid 2px lightgrey;
+    
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 32px;
+    width: 456px;
+    padding-left: 8px;
+}
+
+p{
+    font-size: 20px;
+    width: 400px;
+    padding-left: 8px;
+}
+
+.block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+
+
+.block img{
+    width: 700px;
+}
+
+.landing{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    text-align: center ;
+    padding: 80px 0;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.github{
+    background-color: white;
+    border: solid grey 1px;
+    border-radius: 4px;
+    color: grey;
+    font-size: 20px;
+    height: fit-content;
+    width: fit-content;
+    padding: 20px 40px;
+}
+
+.school{
+    background-color: black;
+    border: solid black 1px;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+    height: fit-content;
+    width: fit-content;
+    padding: 20px 40px;
+}
